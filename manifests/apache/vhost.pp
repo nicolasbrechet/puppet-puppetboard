@@ -87,7 +87,7 @@ class puppetboard::apache::vhost (
   $ldap_bind_dn             = $::puppetboard::params::ldap_bind_dn,
   $ldap_bind_password       = $::puppetboard::params::ldap_bind_password,
   $ldap_url                 = $::puppetboard::params::ldap_url,
-  $ldap_bind_authoritative  = $::puppetboard::params::ldap_bind_authoritative
+  $ldap_bind_authoritative  = $::puppetboard::params::ldap_bind_authoritative,
   $custom_apache_parameters = {},
 ) inherits ::puppetboard::params {
 
